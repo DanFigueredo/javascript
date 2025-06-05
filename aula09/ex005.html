@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando DOM</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            background-color: rgb(95, 93, 93);
+            font-size: 1.5em;
+            color: white;
+
+        }
+        button{
+            background-color: aqua;
+            box-shadow: none;
+            color: rgb(29, 29, 29);
+            font-weight: bolder;
+            border: 1.5px solid rgba(0, 0, 0, 0.74);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Salve seres humanos</h1>
+    <p class="paragrafo">Aqui quem fala é o edukof</p>
+    <button onclick="mudartext()">Clique Aqui</button>   
+    
+    <script>
+        function mudartext() {
+        window.document.body.style.backgroundColor = 'black';
+        window.document.body.style.color = 'white'; 
+        var titulo = window.document.getElementById("titulo")
+        titulo.innerText = "Eu prefiro Authentic Games e TazerCraft" //usei o getelementsById
+
+        var paragrafo = window.document.querySelector('.paragrafo')
+        paragrafo.innerText = "#Esconde-Esconde e Fuga na prisão, muito melhorrrrrr"
+        } //Usei o queryyselector . para class e # para id
+        
+    
+    </script>
+</body>
+</html>
