@@ -1,2 +1,2 @@
 # javascript
-repositorio para acompanha minha jornada aprendendo javascript
+repositorio para acompanhar minha jornada aprendendo javascript
