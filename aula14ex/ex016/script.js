@@ -12,13 +12,17 @@ function contar(){
     }
     if (n1 < n2){
         while(n1 <= n2){
-            res.innerHTML += `${n1}`
+            res.innerHTML += `${n1} \u{1f449}`
             n1+=passo
         }
+        res.innerHTML += `\u{1f3C1}`
     } else{
-    while(n1 >= n2)
-        res.innerHTML += `${n1}`
+    while(n1 >= n2){
+        res.innerHTML += ` ${n1} \u{1f449} `
         n1-=passo
+        
+    }
+    res.innerHTML += `\u{1f3C1}`
     }
 
     
