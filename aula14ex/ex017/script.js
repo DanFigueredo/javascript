@@ -6,7 +6,7 @@ function calcular(){
     var cl1 = document.getElementById("calcular")
     var res = document.getElementById("res")
 
-    if (Number (n1 =='')){
+    if ( n1 ==''){
         
         alert("Adicione um numero, considerando 1 ")
         n1 = 1
