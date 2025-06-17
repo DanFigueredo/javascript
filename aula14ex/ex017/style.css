@@ -21,3 +21,7 @@ footer{
     color: white;
     text-align: center;
 }
+
+table{
+    position: relative;
+}
