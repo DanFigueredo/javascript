@@ -5,7 +5,7 @@ num.push(9) // Aqui ele atribui um valor a um ultimo elemento sem precisar espec
 num.sort()
 console.log(`Esse é o array num =  ${num}`)
 
-let pos = num.indexOf(10)
+let pos = num.indexOf(4)
 if(pos == -1){
     console.log(" o valor não foi encontrado")
 }else{
