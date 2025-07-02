@@ -19,5 +19,6 @@ function validar(){
     res.innerHTML = ('Seu CPF foi validado com sucesso!')
      document.getElementById("input-cpf").value = ''
      document.getElementById("input-cpf").focus()
+     
     
 }
