@@ -15,8 +15,8 @@ function generatePassword(){
 }
 
 function copy(){
-    navigator.clipboard.writeText(inputEl.value)
-}
+    navigator.clipboard.writeText(inputEl.value) //Função que copia a senha pelo navegador
+} 
 
 const passwordlengthEL = document.querySelector("#password-length")
 passwordlengthEL.addEventListener("input", function (){
@@ -26,7 +26,7 @@ generatePassword()
 })
 
 const copyButtonEl = document.querySelector("#copy")
-copyButtonEl.addEventListener('click', copy)
+copyButtonEl.addEventListener('click', copy) //evento que faz com que o click no button , copie 
 
 
 
