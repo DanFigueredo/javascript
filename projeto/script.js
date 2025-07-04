@@ -3,7 +3,7 @@ function subscribeButton(){
     let res = document.querySelector("#res")
     if(email.value == ""){
         res.style.color = "red"
-        res.innerHTML = "Insira um texto valido!"
+        res.innerHTML = "Valid email required!"
         email.style.border = "1px solid red";
         email.style.color = "red"
         return
